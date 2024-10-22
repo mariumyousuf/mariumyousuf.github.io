@@ -30,25 +30,20 @@ li {
     width: 970px;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid #5C4B8A; /* Border color and thickness */
-    padding-top: 20px;
     padding: 70px;          /* Space inside the box */
     text-align: center;     /* Center the text */
     background-color: #D6C3E1; /* Background color */
     border-radius: 17px;
-    justify-content: center;    /* Center horizontally */
-    align-items: center;        /* Center vertically (optional) */
-    text-align: center;         /* Center text within the box */
 }
 
-.outer {
+/*.outer {
     width: 1000px;
     height: 2000px;
     margin: auto;
     border: 1px;
     padding: 10px;
 }
-
+*/
 img {
   border-radius: 0%;
   padding-top: 160px;

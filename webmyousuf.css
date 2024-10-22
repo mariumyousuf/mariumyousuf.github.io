@@ -32,6 +32,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     border: 2px solid #000; /* Border color and thickness */
+    padding-top: 20px;
     padding: 100px;          /* Space inside the box */
     text-align: center;     /* Center the text */
     background-color: #f9f9f9; /* Background color */

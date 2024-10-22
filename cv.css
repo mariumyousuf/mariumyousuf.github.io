@@ -1,0 +1,32 @@
+html, body {
+/*    display: flex;*/
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    height: 100vh;         /* Full viewport height */
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 13px;
+}
+
+.title {
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 70px;          /* Space inside the box */
+    text-align: center;     /* Center the text */
+    align-items: center; 
+    background-color: #D6C3E1; /* Background color */
+    border-radius: 17px;
+    padding-bottom: 20px; /* Optional: adjust bottom padding */
+}
+
+/***************/
+.pdf_size {
+    width: 85%;
+    height: 975px;
+}

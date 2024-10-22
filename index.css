@@ -1,6 +1,6 @@
 html, body {
     height: 100%;
-    padding: 0;
+    padding: 100;
     overflow: none;
     font: 12pt sans-serif;
 }
@@ -8,21 +8,9 @@ html, body {
 h1 {
     font-family: 'Roboto', sans-serif;
 }
-h2 {
-    font-family: 'Roboto', sans-serif;
-    padding-top: 20px;
-}
-h3 {
-    font-family: 'Roboto', sans-serif;
-    padding-top: 30px;
-}
 h4 {
     font-family: 'Roboto', sans-serif;
-    padding-top: 20px;
-}
-
-li {
-    margin: 0px;
+    padding-top: 13px;
 }
 
 .title {
@@ -31,8 +19,10 @@ li {
     margin-right: auto;
     padding: 70px;          /* Space inside the box */
     text-align: center;     /* Center the text */
+    align-items: center; 
     background-color: #D6C3E1; /* Background color */
     border-radius: 17px;
+    padding-bottom: 20px; /* Optional: adjust bottom padding */
 }
 
 /*.outer {

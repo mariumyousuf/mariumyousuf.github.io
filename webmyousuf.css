@@ -5,13 +5,28 @@ html, body {
     font: 12pt sans-serif;
 }
 
+/*div{
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 0px;
+}*/
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+}
 h3 {
-    margin: 0px 0px 5px 0px;
-    font: 16pt sans-serif;
+    margin: 150px 0px 5px 5px;
+    font: 26pt sans-serif;
 }
 
 li {
-    margin: 5px;
+    margin: 0px;
 }
 
 .outer {
@@ -21,14 +36,16 @@ li {
 }
 
 .title {
-    padding: 50px;
+    padding: 0px;
 }
 
 img {
-  border-radius: 17%;
+  border-radius: 0%;
+  padding-top: 60px;
+  padding-right: 25px;
 }
 
 .bio {
-    padding: 20px;
+    padding: 00px;
     margin-bottom: 10px;
 }

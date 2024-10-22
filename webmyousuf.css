@@ -32,16 +32,16 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
-/*
+
 .outer {
-    width: 200px;
-    height: 100px;
+    width: 1000px;
+    height: 2000px;
     margin: auto;
-/*    border: 1px #E0D7FF;
+    border: 1px;
     padding: 10px;
     margin-left: auto;
-    margin-right: auto;*/
-}*/
+    margin-right: auto;
+}
 
 img {
   border-radius: 0%;

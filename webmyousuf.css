@@ -36,6 +36,9 @@ li {
     text-align: center;     /* Center the text */
     background-color: #D6C3E1; /* Background color */
     border-radius: 17px;
+    justify-content: center;    /* Center horizontally */
+    align-items: center;        /* Center vertically (optional) */
+    text-align: center;         /* Center text within the box */
 }
 
 .outer {

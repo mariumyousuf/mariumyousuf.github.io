@@ -35,6 +35,7 @@ li {
     padding: 70px;          /* Space inside the box */
     text-align: center;     /* Center the text */
     background-color: #D6C3E1; /* Background color */
+    border-radius: 17px;
 }
 
 .outer {

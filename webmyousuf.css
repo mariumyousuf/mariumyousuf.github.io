@@ -5,6 +5,10 @@ html, body {
     font: 12pt sans-serif;
 }
 
+link {
+  color: green;
+}
+
 /*div{
   width: 300px;
   border: 15px solid green;
@@ -18,7 +22,7 @@ h1 {
 }
 h4 {
     font-family: 'Roboto', sans-serif;
-    padding-top: 10px;
+    padding-top: 21px;
 }
 h3 {
     margin: 150px 0px 5px 5px;
@@ -29,14 +33,18 @@ li {
     margin: 0px;
 }
 
-.outer {
-    width: 900px;
+.title {
+    width: 970px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.title {
-    padding: 0px;
+.outer {
+    width: 200px;
+    height: 100px;
+    border: 1px #E0D7FF;
+    padding: 10px;
+    margin: 10px;
 }
 
 img {
@@ -46,6 +54,5 @@ img {
 }
 
 .bio {
-    padding: 00px;
-    margin-bottom: 10px;
+    padding-top: 30px;   
 }

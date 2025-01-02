@@ -2,27 +2,26 @@ html, body {
     height: 100%;
     padding: 100;
     overflow: none;
-    font: 12pt sans-serif;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-}
-h4 {
-    font-family: 'Roboto', sans-serif;
-    padding-top: 13px;
+    font-family: 'Georgia';
 }
 
+h3 {
+    padding-top: 17px;
+}
+
+
 .title {
-    width: 970px;
+    width: 972px;
     margin-left: auto;
     margin-right: auto;
-    padding: 70px;          /* Space inside the box */
+    padding: 72px;          /* Space inside the box */
     text-align: center;     /* Center the text */
     align-items: center; 
-    background-color: #D6C3E1; /* Background color */
-    border-radius: 17px;
-    padding-bottom: 20px; /* Optional: adjust bottom padding */
+    background-color: #041D56; /* Background color */
+    border-radius: 3px;
 }
 
 /*.outer {
@@ -34,11 +33,51 @@ h4 {
 }
 */
 img {
-  border-radius: 0%;
-  padding-top: 160px;
-  padding-right: 25px;
+  border-radius: 3px;
 }
 
-.bio {
-    padding-top: 30px;   
+.lightbox {
+    width: 972px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 72px; 
+    padding-top: 17px;
+    text-align: left;     /* Center the text */
+    align-items: center; 
+    background-color: #DAF0FF; /* Background color */
+    border-radius: 3px;
+    padding-bottom: 17px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 24%;
+}
+
+.welcome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #041D56;
+    font-family: Georgia;
+    font-size: 21px;
+}
+
+.webtext {
+    padding-top: 17px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: #041D56;
+    font-family: Georgia;
+    font-size: 17px;
+}
+
+.pdf_size {
+    width: 85%;
+    height: 975px;
 }

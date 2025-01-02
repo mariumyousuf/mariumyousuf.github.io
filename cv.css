@@ -10,19 +10,18 @@ h1 {
 }
 h4 {
     font-family: 'Roboto', sans-serif;
-    padding-top: 13px;
+    padding-top: 17px;
 }
 
 .title {
-    width: 970px;
+    width: 972px;
     margin-left: auto;
     margin-right: auto;
     padding: 70px;          /* Space inside the box */
     text-align: center;     /* Center the text */
     align-items: center; 
-    background-color: #D6C3E1; /* Background color */
-    border-radius: 17px;
-    padding-bottom: 20px; /* Optional: adjust bottom padding */
+    background-color: #041D56; /* Background color */
+    border-radius: 3px;
 }
 
 /***************/

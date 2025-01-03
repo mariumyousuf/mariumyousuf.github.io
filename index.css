@@ -12,6 +12,15 @@ h3 {
     padding-top: 17px;
 }
 
+.stripe{
+    width: 972px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;          /* Space inside the box */
+    text-align: center;     /* Center the text */
+    align-items: center; 
+    background-color: #CC7722; /* Background color */
+}
 
 .title {
     width: 972px;
@@ -49,11 +58,12 @@ img {
     padding-bottom: 17px;
 }
 
-.center {
+.images {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 24%;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
 
 .welcome {
@@ -67,7 +77,7 @@ img {
 }
 
 .webtext {
-    padding-top: 17px;
+    padding-top: 3px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -75,6 +85,20 @@ img {
     color: #041D56;
     font-family: Georgia;
     font-size: 17px;
+    padding-bottom: 3px;
+    list-style-type: square;
+}
+
+.quotetext {
+    padding-top: 27px;
+    display: block;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: left;
+    color: #041D56;
+    font-family: Georgia;
+    font-size: 17px;
+    padding-bottom: 27px;
 }
 
 .pdf_size {

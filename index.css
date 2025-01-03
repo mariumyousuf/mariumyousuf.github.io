@@ -12,6 +12,31 @@ h3 {
     padding-top: 17px;
 }
 
+a:link {
+      background-color: transparent;
+      text-decoration: none;
+}
+
+a:visited {
+      background-color: transparent;
+      text-decoration: none;
+}
+
+a:hover {
+      color: #CC7722 !important;
+      background-color: transparent;
+      text-decoration: none;
+}
+
+a:active {
+      background-color: transparent;
+      text-decoration: none;
+}
+
+ul {
+    margin-top:-20px;
+}
+
 .stripe{
     width: 972px;
     margin-left: auto;
@@ -104,18 +129,4 @@ img {
 .pdf_size {
     width: 85%;
     height: 972px;
-}
-
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }

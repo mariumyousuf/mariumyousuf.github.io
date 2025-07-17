@@ -1,34 +1,70 @@
 <!DOCTYPE html>
-<html lang="en-us">
-	<!-- Marium Yousuf -->
-	<head>
-		<title>Marium Yousuf</title>
-		<link rel="icon" href="public/figs/weblogo_heron.png" type="image/png">
-		<link rel="stylesheet" type="text/css" href="index.css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marium's Homepage</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Georgia, sans-serif;
+      background-color: transparent;
+    }
+    .container {
+      display: flex;
+      gap: 40px;
+    }
+    .box {
+      padding: 30px 40px;
+      background-color: transparent;
+      border: 2px solid #333;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.2s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .box:hover {
+      transform: scale(1.05);
+    }
+    .box a {
+      text-decoration: none;
+      color: #CC7722;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <a href="phd.html"> Marium's PhD webpage </a>
+    </div>
+    <div class="box">
+      <a onclick="checkPassword()"> Marium's art page </a>
+    </div>
+  </div>
 
-	<div class="title">
-		<div class="stripe"></div>
-		<h1 style="float: left">
-			<a href="index.html" style="color:rgb(255,255,255); font-family:Georgia;">Marium Yousuf</a>
-		</h1> 
-		<h3 style="float: right"> 
-			<a href="about.html" style="color:rgb(255,255,255); font-family:Georgia;">About Me</a> &nbsp;&nbsp;&nbsp; 
-			<a href="research.html" style="color:rgb(255,255,255); font-family:Georgia;">Research</a> &nbsp;&nbsp;&nbsp;
-			<a href="teaching.html" style="color:rgb(255,255,255); font-family:Georgia;">Teaching</a> &nbsp;&nbsp;&nbsp;
-			<a href="cv.html" style="color:rgb(255,255,255); font-family:Georgia;">CV</a>
-		</h3>
-	</div>
+  <script>
+    async function checkPassword() {
+      const userInput = prompt("Enter the password to access Marium's art page:");
+      const encoder = new TextEncoder();
+      const data = encoder.encode(userInput);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
 
-	<div class="lightbox">
-		<p class="welcome"> Welcome to My Webpage </p>
-		<a> <img src="public/figs/profile.png", alt="profile" class="images" style="width: 27%;"></a>
-		<p class="webtext"> I am a PhD candidate in the <b>Program of Applied Mathematics</b>, Department of Mathematics, at the <b>University of Arizona</b>. I am a member of <i>C</i>omputational and <i>E</i>xperimental <i>N</i>euroscience <i>L</i>aboratory (<a href = "https://cenl.ucsd.edu/lab.html" style="color:#CC7722" target="_blank"><b>CENL</b></a>) and I am interested in probabilistic graphical model applications to computational neuroscience. </p>
-		<p class="webtext">For my dissertation, I am investigating <b>causal discovery</b> techniques to extract effective connectivity in neurons under the implication of <b>hippocampal replay</b>. 
-		<!-- See the <a href="research.html" style="color:#CC7722" target="_blank"><b>Research</b></a>  tab for more.</p> -->
-		<p class="webtext"> <b>Contact:</b> I may be reached via email at <i><a href="mailto:myousuf@arizona.edu" style="color:#CC7722" target="_blank">myousuf (at) arizona (dot) edu</a></i> for any inquiries.</p>
-		<div class="stripe"></div>
-	</div>
+      const correctHash = "9db928162695f24287656ff6c14e16f31763f004ebadbda57c2437e3a9fa9aa9"; // password = "hell!initiated"
+
+      if (hashHex === correctHash) {
+        window.location.href = "art.html";
+      } else {
+        alert("Incorrect password.");
+      }
+    }
+  </script>
+</body>
 </html>
-

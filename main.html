@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marium's Homepage</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Georgia, sans-serif;
+      background-color: transparent;
+    }
+    .container {
+      display: flex;
+      gap: 40px;
+    }
+    .box {
+      padding: 30px 40px;
+      background-color: #041D56;
+      border: 2px solid #333;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.2s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .box:hover {
+      transform: scale(1.05);
+    }
+    .box a {
+      text-decoration: none;
+      color: #CC7722;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <a href="phd.html"> Marium's PhD webpage </a>
+    </div>
+    <div class="box">
+      <a onclick="checkPassword()"> Marium's art page </a>
+    </div>
+  </div>
+
+  <script>
+    async function checkPassword() {
+      const userInput = prompt("Enter the password to access Marium's art page:");
+      const encoder = new TextEncoder();
+      const data = encoder.encode(userInput);
+      const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+
+      const correctHash = "9db928162695f24287656ff6c14e16f31763f004ebadbda57c2437e3a9fa9aa9"; // password = "hell!initiated"
+
+      if (hashHex === correctHash) {
+        window.location.href = "art.html";
+      } else {
+        alert("Incorrect password.");
+      }
+    }
+  </script>
+</body>
+</html>

@@ -34,6 +34,12 @@
 			<iframe id="pdf_size" src="public/docs/mariumyousuf-cv.pdf" frameborder=0></iframe>
 		</p>
 		<div class="stripe"></div>
+		<p style="color:#041D56;">Last updated: <span id="lastModified"></span></p>
+			<script>
+			  const lastMod = new Date(document.lastModified);
+			  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+			  document.getElementById("lastModified").textContent =
+			    lastMod.toLocaleDateString(undefined, options);
+			</script>
 	</div>
 </html>
-

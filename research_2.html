@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<!-- Marium Yousuf -->
+	<head>
+		<title>Marium Yousuf</title>
+		<link rel="icon" href="public/figs/weblogo_heron.png" type="image/png">
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			#pdf_size {
+				width: 75%;
+				height: 500px;
+			}
+		</style>
+	</head>
+
+	<div class="title">
+		<div class="stripe"></div>
+		<h1 style="float: left">
+			<a href="index.html" style="color:rgb(255,255,255); font-family:Georgia;">Marium Yousuf</a>
+		</h1> 
+		<h3 style="float: right"> 
+			<a href="index.html" style="color:rgb(255,255,255); font-family:Georgia;">Home</a> &nbsp;&nbsp;&nbsp; 
+			<a href="about.html" style="color:rgb(255,255,255); font-family:Georgia;">About Me</a> &nbsp;&nbsp;&nbsp; 
+			<a href="teaching.html" style="color:rgb(255,255,255); font-family:Georgia;">Teaching</a> &nbsp;&nbsp;&nbsp;
+			<a href="cv.html" style="color:rgb(255,255,255); font-family:Georgia;">CV</a>
+		</h3>
+	</div>
+
+	<div class="lightbox">
+		<p class="welcome"> Research </p>
+		<p class="webtext">
+			My advisors are <a href="https://cenl.ucsd.edu/Webpages/JMF/index.html" style="color:#CC7722" target="_blank"><b>Jean-Marc Fellous</b></a> and <a href="https://sites.arizona.edu/misha-chertkov/" style="color:#CC7722" target="_blank"> <b>Michael Chertkov</b></a>. We primarily investigate replay events in the brain, which are the reactivation of neural sequences during rest and sleep resembling the sequences from prior exploratory behavior. The main research questions we are tackling are: 
+			<ul class="webtext">
+				<li>How replay can be detected from neuron population activity using principled causal methods?</li>
+				<li> How do replay mechanisms offer insights into continual learning in artificial intelligence?</li>
+			</ul>
+
+	      <p class="webtext"> <b> Manuscripts </b>
+	      <ul class="webtext">
+	        <li> <b> Yousuf, M.</b>, Pagnier, L., Fellous, J.M., & Chertkov, M. <i> Inferring Directed Functional Connectivity Graphs from Neural Spike Trains.</i> Manuscript under review at Neural Computation. March 2026. </li>
+	      </ul>
+		</p>
+			<!-- The primary research questions we are tackling is: Given just the observational data (such as, spike train neural data), is it possible to reliably extract the causal relationship between the variables (neurons)?  -->
+<!-- 			<ul class="webtext">
+				<li>Hippocampal replay is characterized by the reactivation of neural sequences during non-exploratory states. That is, when the rat goes to sleep or rest, it shows a similar firing activity as observed during the task exploration, indicating that the rat is revisiting the task in sleep and storing the memory of what was explored.</li>
+				
+				<li>The generation of replay is crucial for memory consolidation and retention and is key to retrieving previous memories. Replay episodes contain information about the causality structure within a network of neurons, which helps to experimentally track how the memories are formed during learning. </li>
+
+				<li>Extracting the neurons involved in replay, and the order in which the replay episodes propagate, highlights the role of place cells in spatial navigation. This provides insights into learning and decision-making in complex environments.</li>
+				
+				<li>When the rat is reintroduced to a task sometime later during wakefulness, the exploration performance indicates how well the memory of the task was stored and if the learning has occurred.</li>
+			</ul>  -->
+
+	    <p class="webtext">
+	        <b> PhD Dissertation (Summer 2026) </b>
+	        <br>
+	        <br>
+	        <ul class="webtext">
+
+	        <b> Title: </b> <i style="color:#CC7722"> Inference of Effective Connectivity Graphs from Neural Replay Spike Trains </i> 
+	        <br>
+	        <p> Hippocampal replay reflects the reactivation of neural activity patterns during sleep and rest that resemble prior wakeful experience. In spatial navigation tasks, this replay is thought to support memory consolidation and long-term retrieval. However, how replay relates to the underlying functional and effective connectivity of neural circuits remains unclear. Understanding this relationship can provide insight into how memories are encoded, organized, and propagated through neural networks. </p>
+	        <p> We simulate activity in a biologically realistic CA3 place cell network using the NEURON simulation environment, implementing single-compartment pyramidal neurons with AMPA and NMDA synapses and in vivo-like stochastic background excitation and inhibition. Controlled causal structure is introduced via a connectivity matrix that modulates synaptic strengths to embed known directed influences.</p>
+	        <p> To infer effective connectivity, we develop a sparse generative transition model with a two-phase prune-and-refit procedure to estimate directed interactions governing network dynamics. We benchmark this method against naive baselines (spike counting, cross-correlation), pairwise methods (Granger causality, transfer entropy), and multivariate approaches (point-process GLM, VARLiNGAM), evaluating performance against the ground-truth connectivity matrix. Robustness is assessed across variations in sparsity, synaptic strength, network size, and sample size.</p>
+		    <p> Output: Manuscript under review at <i> Neural Computation </i> and conference poster presentations at
+		      <ul class="webtext">
+		        <li> <a href="public/docs/ddays2026poster.pdf" target="_blank">Dynamics Days, 2026</a> (Tucson, January 2026) </li>
+		        <li> <a href="public/docs/sfn2025_poster_yousuf.pdf" target="_blank">Society for Neuroscience 2025</a> (San Diego, November 2025) </li>
+		        <li> <a href="public/docs/NITMB2025_poster_yousuf.pdf" target="_blank">National Institute for Theory and Mathematics in Biology</a> (Chicago, August 2025) </li>
+		        <li> <a href="public/docs/sfn2024_poster_yousuf.pdf" target="_blank">Society for Neuroscience 2024</a> (Chicago, October 2024) </li>
+		        <li> <a href="public/docs/sfn2023_poster_yousuf.pdf" target="_blank">Society for Neuroscience 2023</a> (Washington D.C., November 2023) </li>
+		      </ul>
+			</ul>
+	    </p>
+
+	    <p class="webtext">
+        <b> Other Projects </b>
+        <br>
+        <br>
+        <ul class="webtext">
+
+	        <b>Title:</b> <i style="color:#CC7722">Robust Automation for Connectomics</i>
+			<br>
+			<p>
+			Understanding brain function at the cellular level requires accurate 3D reconstruction of neuronal tissue from high-resolution microscopy data. Transmission Electron Microscopy (TEM) provides nanometer-scale resolution, enabling detailed visualization of subcellular brain structures. However, constructing accurate 3D volumes from multi-tile, multi-slice datasets remains challenging due to alignment errors and the need for extensive manual correction in current toolchains.
+			</p>
+
+			<p>
+			We analyze multi-tile TEM image datasets of mouse brain slices using reconstruction pipelines based on TrakEM2, as well as web-based visualization tools such as Neuroglancer and WebKnossos. To evaluate alignment quality, we study overlapping tile regions using both manual landmark selection and automated feature matching via Scale-Invariant Feature Transform (SIFT). We quantify alignment error using geometric fitting (elliptical contour models) and statistical analysis of feature displacements. We also test whether observed misalignments can be explained by optical distortion using a Brown–Conrady lens distortion model.
+			</p>
+
+			<p>
+			We develop automated methods for evaluating and improving alignment in large-scale TEM datasets, reducing reliance on manual correction in 3D reconstruction workflows. Our analysis identifies systematic patterns in tile misalignment and shows that feature-based matching captures dense correspondences, while optical distortion models partially explain geometric error structure.
+			</p>
+
+			<p>Output: Technical reports (Argonne National Laboratory, 2021–2023)</p>
+
+			<ul class="webtext">
+			<li><a href="public/docs/argonne2023.pdf" target="_blank">2023 Summer Report</a></li>
+			<li><a href="public/docs/argonne2022.pdf" target="_blank">2022 Summer Report</a></li>
+			<li><a href="public/docs/argonne2021.pdf" target="_blank">2021 Summer Report</a></li>
+			</ul>
+
+        <br>
+        <br>
+	        <b> Title: </b> <i style="color:#CC7722"> Bayesian inference for sparse graphical models of brain connectivity </i> 
+	        <br>
+	        <p> We study how Alzheimer’s disease affects functional connectivity in the brain using sparse Bayesian graphical models. The goal is to infer interpretable connectivity structures from high-dimensional neural data. </p>
+	        <p> We model brain connectivity using Gaussian precision matrices and develop Bayesian inference methods for sparse graph learning, including variational inference, Gibbs sampling, and Laplace approximations. We also explore structured priors such as G-Wishart distributions and scalable optimization techniques for high-dimensional settings.
+	        </p>
+	        <p> Our work demonstrates that sparse Bayesian models can recover meaningful connectivity patterns under noise and limited data, providing a framework for studying brain network degradation. </p>
+	        <p> My contributions include developing a computational framework for Bayesian inference in sparse graphical models, implementing variational and sampling-based methods, and building simulation and benchmarking pipelines for structured graph data. </p>
+	        <p> Output:</p>
+
+			<ul class="webtext">
+			<li> Implementation of Bayesian inference methods for sparse Gaussian graphical models (private GitHub, Spring 2022) </li>
+			<li> <a href="public/docs/G-Wishart_57Mproject.pdf" target="_blank"> Semester project Spring 2020 </a></li>
+			<li> <a href="public/docs/G-Wishart_665project.pdf" target="_blank"> Semester project Fall 2019 </a></li>
+			</ul>
+
+        <br>
+        <br>
+			<b>Title:</b> <i style="color:#CC7722">Diagnosing Dementia Using Smart Chair, Wearable Device, and Testing Apps</i>
+
+			<p>
+			We study early detection of dementia by combining cognitive assessment with passive behavioral and physiological sensing. The goal is to capture subtle markers of cognitive decline that are not visible through standard screening alone.
+			</p>
+
+			<p>
+			We developed a multimodal framework integrating a pressure-sensitive smart chair, wearable sensor data, and SLUMS cognitive scores. We analyzed data from 296 patients (including 21 with clinical ground truth), focusing on aligning behavioral signals with cognitive test responses and exploring diagnostic separability using sensor-derived features.
+			</p>
+
+			<ul>
+			<li>Integrated multimodal dataset combining chair, wearable, and cognitive testing data</li>
+			<li>Processing pipeline for heterogeneous physiological and behavioral signals</li>
+			<li>Temporal alignment of sensor data with SLUMS response structure</li>
+			<li>Exploratory analysis of pressure patterns across diagnostic groups</li>
+			<li>Preliminary ROC-based evaluation of diagnostic separability</li>
+			</ul>
+
+			<p>
+			Output: <a href="public/docs/rollaISCproject.pdf" target="_blank">Report </a> presented at the Annual Graduate Research Symposium, Intelligent Systems Center ( Spring 2019) 
+			</p>
+		</ul>
+	    </p>
+
+		</p>
+		<div class="stripe"></div>
+	</div>
+</html>
+
+	      <!-- <p class="webtext"> <b> Publications: </b> </p> -->
+
+
+<!-- 		    <p> I contributed with  
+		      <ul class="webtext">
+		        <li> Computational framework for Bayesian inference in sparse Gaussian graphical models </li>
+		        <li>  Implementation of variational inference, Laplace approximation, and Gibbs sampling methods </li>
+		        <li> Simulation pipeline for generating synthetic graph-structured datasets using G-Wishart priors </li>
+		        <li> Benchmarking of inference methods across varying graph sparsity, size, and sample regimes </li>
+		        <li>  Extension of model performance on decomposable graph settings to and non-structured undecomposable graph settings  </li>
+		      </ul>
+		    </p> -->
+<!-- 
+	        <p> Understanding brain function at the cellular level requires accurate 3D reconstruction of neuronal tissue from high-resolution microscopy data. Transmission Electron Microscopy (TEM) provides nanometer-scale resolution, enabling detailed visualization of subcellular brain structures. However, constructing accurate 3D volumes from multi-tile, multi-slice datasets remains challenging due to alignment errors and the need for extensive manual correction in current toolchains. </p>
+	        <p> We analyze multi-tile TEM image datasets of mouse brain slices using reconstruction pipelines based on TrakEM2, as well as web-based visualization tools such as Neuroglancer and WebKnossos. To evaluate and improve alignment quality, we study overlapping tile regions using both manual landmark selection and automated feature matching via Scale-Invariant Feature Transform (SIFT). We quantify alignment error using geometric fitting (elliptical contour models) and statistical analysis of matched feature displacements. We further model spatial discrepancies using statistical methods (distribution fitting and regression analysis) and test whether observed misalignments can be explained by optical distortion using a Brown–Conrady lens distortion model. Finally, we compare automated and software-based alignment performance against manual reconstruction pipelines.</p>
+	        <p> We develop and evaluate automated approaches for assessing and improving alignment in large-scale TEM datasets, reducing reliance on manual correction in 3D reconstruction workflows. Our analysis identifies systematic patterns in tile misalignment, demonstrates the effectiveness of feature-based matching for dense correspondence, and provides evidence that optical distortion models can partially explain observed geometric errors. This work contributes to scalable pipelines for reconstructing neuronal structure from high-throughput electron microscopy data.</p>
+		    <p> Internal techincal reports (Argonne National Laboratory, 2021–2023)
+		      <ul class="webtext">
+		        <li> <a href="public/docs/argonne2023.pdf" target="_blank">2023 Summer Report </a> </li>
+		        <li> <a href="public/docs/argonne2022.pdf" target="_blank">2022 Summer Report </a> </li>
+		        <li> <a href="public/docs/argonne2021.pdf" target="_blank">2021 Summer Report </a>  </li>
+		      </ul>
+		  </p> -->
+
+
+<!-- 		<p class="webtext">
+			Below are two posters prepared for the <a href="https://www.sfn.org/meetings/neuroscience-2023" style="color:#CC7722" target="_blank"><b>Neuroscience 2023</b></a> and the <a href="https://www.sfn.org/meetings/neuroscience-2024" style="color:#CC7722" target="_blank"><b>Neuroscience 2024</b></a>. -->
+<!-- 			<ul class="webtext">
+				<li>First poster describes how we generate the data so that the synchrony of spikes occurs due to the synaptic strength between neurons and not due to the changes in firing rates. For this poster, we considered symmetric connections between neurons (that is, no direction of connection between two neurons) and discovered that the prevalent spike counting algorithm performs better for smaller networks and higher weights and that sparser connectivity shows minimal differences between the actual and shuffled spike coincidence counts.</li> -->
+<!-- 				<p align="center">
+					<iframe id="pdf_size" src="public/docs/sfn2023_poster_yousuf.pdf" frameborder=0></iframe>
+				</p> -->
+				<!-- <li>The second poster compares the results from three approaches designed to identify those subgroups of neurons and their firing order, if any. The first approach uses spike counts over some fixed synchrony window to allocate spikes that occur within the specified timeframe, the second approach leverages spectral analysis with the Fourier transform to analyze the spiking activity in a frequency space, and the third approach extracts a directed acyclic graph that best describes the causality relationship between neurons by capturing the underlying causal structure using Direct LiNGAM method (Shimizu, 2006). The Direct LiNGAM (<i>Li</i>near <i>N</i>on-<i>G</i>aussian <i>A</i>cylic <i>M</i>odel) focuses on the non-Gaussianity in the data generating process and uses ordinary linear regression with difference of mutual information between two neurons to find the causal ordering between all neurons using the spike train data. All three methods are tested against the ground-truth connectivity matrix to evaluate the robustness and weaknesses of the algorithms for both symmetric and non-symmetric connections and discovered that non-Gaussianity is a necessary assumption to find true causal ordering.</li> -->
+<!-- 				<p align="center">
+					<iframe id="pdf_size" src="public/docs/sfn2024_poster_yousuf.pdf" frameborder=0></iframe>
+				</p> -->
+

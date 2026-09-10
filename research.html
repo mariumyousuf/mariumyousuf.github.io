@@ -2,7 +2,7 @@
 <html lang="en-us">
 	<!-- Marium Yousuf -->
 	<head>
-		<title>Marium Yousuf</title>
+		<title>Marium Yousuf, Ph.D.</title>
 		<link rel="icon" href="public/figs/weblogo_heron.png" type="image/png">
 		<link rel="stylesheet" type="text/css" href="index.css" />
 		<meta charset="UTF-8">
@@ -19,7 +19,7 @@
 	<div class="title">
 		<div class="stripe"></div>
 		<h1 style="float: left">
-			<a href="index.html" style="color:rgb(255,255,255); font-family:Georgia;">Marium Yousuf</a>
+			<a href="index.html" style="color:rgb(255,255,255); font-family:Georgia;">Marium Yousuf, Ph.D.</a>
 		</h1> 
 		<h3 style="float: right"> 
 			<a href="index.html" style="color:rgb(255,255,255); font-family:Georgia;">Home</a> &nbsp;&nbsp;&nbsp; 
@@ -31,12 +31,27 @@
 
 	<div class="lightbox">
 		<p class="welcome"> Research </p>
+		<p class="webtext"> <b> Manuscripts </b>
+		<ul class="webtext">
+		  <li> <b> Yousuf, M.</b>, Pagnier, L., Fellous, J.M., &amp; Chertkov, M.
+		    <i>Inferring Directed Functional Connectivity Graphs from Neural Spike Trains.</i>
+		    In revision at <i>Neural Computation</i>. Sept. 2026. (Available upon request)
+		  </li>
 
-	      <p class="webtext"> <b> Manuscripts </b>
+		  <li> <b> Yousuf, M.</b>
+		    <a href="https://www.proquest.com/dissertations-theses/inferring-effective-connectivity-graphs-neural/docview/3382322679/se-2?accountid=8364"
+		       target="_blank">
+		      <i>Inferring Effective Connectivity Graphs from Neural Replay Spike Trains.</i>
+		    </a>
+		    Ph.D. Dissertation, University of Arizona. Aug. 2026.
+		  </li>
+		</ul>
+	</p>
+<!-- 	      <p class="webtext"> <b> Manuscripts </b>
 	      <ul class="webtext">
-	        <li> <b> Yousuf, M.</b>, Pagnier, L., Fellous, J.M., & Chertkov, M. <i> Inferring Directed Functional Connectivity Graphs from Neural Spike Trains.</i> Manuscript under review at Neural Computation. March 2026. (Available upon request)</li>
+	        <li> <b> Yousuf, M.</b>, Pagnier, L., Fellous, J.M., & Chertkov, M. <i> Inferring Directed Functional Connectivity Graphs from Neural Spike Trains.</i> In Revision at Neural Computation. Sept. 2026. (Available upon request)</li>
 	      </ul>
-		</p>
+		</p> -->
 			<!-- The primary research questions we are tackling is: Given just the observational data (such as, spike train neural data), is it possible to reliably extract the causal relationship between the variables (neurons)?  -->
 <!-- 			<ul class="webtext">
 				<li>Hippocampal replay is characterized by the reactivation of neural sequences during non-exploratory states. That is, when the rat goes to sleep or rest, it shows a similar firing activity as observed during the task exploration, indicating that the rat is revisiting the task in sleep and storing the memory of what was explored.</li>
@@ -54,7 +69,10 @@
 	        <br>
 	        <ul class="webtext">
 
-	        <b> Title: </b> <i style="color:#CC7722"> Inference of Effective Connectivity Graphs from Neural Replay Spike Trains </i> 
+	        <!-- <b> Title: </b> <i style="color:#CC7722"> Inference of Effective Connectivity Graphs from Neural Replay Spike Trains </i>  -->
+			<b>Title:</b> <i> Inference of Effective Connectivity Graphs from Neural Replay Spike Trains </i> 
+			<!-- <a style="color:#CC7722" href="https://www.proquest.com/dissertations-theses/inferring-effective-connectivity-graphs-neural/docview/3382322679/se-2?accountid=8364" style="color:#CC7722" target="_blank"> (URL)</a> -->
+			<!-- <span style="float:right;">Aug. 2026</span> -->
 	        
 	        <br>
 	        <br>
@@ -62,7 +80,7 @@
 
 
 	        <p> Hippocampal replay reflects the reactivation of neural activity patterns during sleep and rest that resemble prior wakeful experience. In spatial navigation tasks, this replay is thought to support memory consolidation and long-term retrieval. However, how replay relates to the underlying functional and effective connectivity of neural circuits remains unclear. Understanding this relationship can provide insight into how memories are encoded, organized, and propagated through neural networks. We simulate activity in a biologically realistic CA3 place cell network using the NEURON simulation environment, implementing single-compartment pyramidal neurons with AMPA and NMDA synapses and in vivo-like stochastic background excitation and inhibition. Controlled causal structure is introduced via a connectivity matrix that modulates synaptic strengths to embed known directed influences. To infer effective connectivity, we develop a sparse generative transition model with a two-phase prune-and-refit procedure to estimate directed interactions governing network dynamics. We benchmark this method against naive baselines (spike counting, cross-correlation), pairwise methods (Granger causality, transfer entropy), and multivariate approaches (point-process GLM, VARLiNGAM), evaluating performance against the ground-truth connectivity matrix. Robustness is assessed across variations in sparsity, synaptic strength, network size, and sample size.</p>
-		    <p> Output: Manuscript under review at <i> Neural Computation </i> and conference poster presentations at
+		    <p> Output: Manuscript in revision at <i> Neural Computation </i> and conference poster presentations at
 		      <ul class="webtext">
 		        <li> <a href="public/docs/ddays2026poster.pdf" target="_blank">Dynamics Days, 2026</a> (Tucson, January 2026) </li>
 		        <li> <a href="public/docs/sfn2025_poster_yousuf.pdf" target="_blank">Society for Neuroscience 2025</a> (San Diego, November 2025) </li>
@@ -79,7 +97,7 @@
         <br>
         <ul class="webtext">
 
-	        <b>Title:</b> <i style="color:#CC7722">Robust Automation for Connectomics</i>
+	        <b>Title:</b> <i>Robust Automation for Connectomics</i>
 			<br>
 			<p>
 			Understanding brain function at the cellular level requires accurate 3D reconstruction of neuronal tissue from high-resolution microscopy data. Transmission Electron Microscopy (TEM) provides nanometer-scale resolution, enabling detailed visualization of subcellular brain structures. However, constructing accurate 3D volumes from multi-tile, multi-slice datasets remains challenging due to alignment errors and the need for extensive manual correction in current toolchains. We analyzed multi-tile TEM image datasets of mouse brain slices using reconstruction pipelines based on TrakEM2, as well as web-based visualization tools such as Neuroglancer and WebKnossos. To evaluate alignment quality, we studied overlapping tile regions using both manual landmark selection and automated feature matching via Scale-Invariant Feature Transform (SIFT). We quantified alignment error using geometric fitting (elliptical contour models) and statistical analysis of feature displacements. We also tested whether observed misalignments can be explained by optical distortion using a Brown–Conrady lens distortion model. We also developed automated methods for evaluating and improving alignment in large-scale TEM datasets, reducing reliance on manual correction in 3D reconstruction workflows. Our analysis identified systematic patterns in tile misalignment and showed that feature-based matching captures dense correspondences, while optical distortion models partially explain geometric error structure.
@@ -95,7 +113,7 @@
 
         <br>
         <br>
-	        <b> Title: </b> <i style="color:#CC7722"> Bayesian inference for sparse graphical models of brain connectivity </i> 
+	        <b> Title: </b> <i> Bayesian inference for sparse graphical models of brain connectivity </i> 
 	        <br>
 	        <p> Alzheimer’s disease disrupts functional connectivity in the brain, weakening communication between regions and impairing cognitive function. Understanding these changes requires statistical models that can capture high-dimensional dependence structures in neural data. However, estimating brain connectivity is challenging due to noise and the large number of interacting regions. Sparse representations provide a principled way to identify the most relevant dependencies while maintaining computational tractability. We studied brain connectivity using sparse graphical models based on Gaussian precision matrices, where sparsity encodes conditional independence between brain regions. In particular, we developed and analyzed Bayesian approaches for learning sparse graph structures in high-dimensional settings, including variational inference methods optimized using quasi-Newton approaches (L-BFGS) for scalable posterior approximation, KL-divergence–based bounds for improved inference stability, G-Wishart and complex G-Wishart priors for structured precision matrix estimation over decomposable and non-decomposable graphs, Block Gibbs sampling and collapsed Gibbs sampling for posterior inference over graph structures, Laplace approximations for marginal likelihood estimation in structured Gaussian graphical models, and Junction tree–based decomposition methods for efficient computation on sparse graphs. </p>
 	        <p> Output:</p>
@@ -108,7 +126,7 @@
 
         <br>
         <br>
-			<b>Title:</b> <i style="color:#CC7722">Diagnosing Dementia Using Smart Chair, Wearable Device, and Testing Apps</i>
+			<b>Title:</b> <i>Diagnosing Dementia Using Smart Chair, Wearable Device, and Testing Apps</i>
 
 			<p>
 			Dementia is a neurodegenerative condition that causes progressive cognitive decline and is often difficult to detect in its early stages. Mild Cognitive Impairment (MCI) can precede dementia, but current diagnostic methods are limited in their ability to capture subtle behavioral and physiological changes. This motivates the development of multimodal, data-driven approaches that combine cognitive testing with passive sensing to improve early detection sensitivity. We developed a multimodal data collection framework combining: a pressure-sensitive smart chair, a wearable device, and the Saint Louis University Mental Status (SLUMS) cognitive assessment. The smart chair used force-sensitive resistors to record pressure patterns during clinical screening sessions, capturing posture and movement dynamics. Wearable sensors recorded physiological signals, while SLUMS scores provided cognitive performance measures. We developed an integrated sensing and analysis pipeline for multimodal dementia screening. Key contributions include: A combined data collection framework integrating cognitive tests with wearable and chair-based sensing; Processing pipeline for heterogeneous physiological and behavioral datasets; Exploratory analysis of pressure sensor patterns during cognitive assessment sessions; Alignment of sensor data with SLUMS response timing for behavioral interpretation; and Preliminary evaluation of diagnostic performance using ROC analysis.</p>
